@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:"Proxima Nova",sans-serif;
+}
+.nav-main{
+    height: 3rem;
+    width: 100%;
+    background-color: #003A70;
+    text-align: center;
+}
+.header{
+    height: 130px;
+    width: 100%;
+}
+#m{
+    margin-left: 2rem;
+    position: absolute;
+    top:13%;
+   z-index: 2;
+}
+.nav-bar1{
+    float: right;
+    height: 42px;
+    width: 82%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #35B6B4;
+    font-size: 16px;
+    /* color: #ffffff; */
+}
+a:hover{
+    font-size: 20px;
+}
+.nav-bar2{
+    float: right;
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 6px 12px;
+    height: 76px;
+    width: 100%;
+    /* background-color: black; */
+}
+li{
+    cursor: pointer;
+    margin-left:30px;
+    display: inline-block;
+    list-style-type: none;
+}
+.drop-down{
+    display: none;
+    height: 80px;
+    width: 550px;
+    background-color: #f7f8f8;
+    line-height: 30px;
+    margin-top: 20px;
+    position:absolute;
+    transform: translate(-100px);
+    font-size: 22px;
+    font-weight: 600;
+    color: #333333;
+    cursor: pointer;
+
+}
+.same {
+    width: 150px;
+    display: inline;
+    /* background-color: #35B6B4; */
+}
+
+.drop:hover .drop-down{
+    display: block;
+}
+
+
+.hos:hover .drop-down{
+    display: block;
+}
+
+.treat:hover .drop-down{
+    display: block;
+}
+
+.serv:hover .drop-down{
+    display: block;
+}
+
+.quick:hover .drop-down{
+    display: block;
+}
+
+.inter:hover .drop-down{
+    display: block;
+}
+
+.main{
+    height: 40px;
+    width: 100%;
+    background-color: #003A70;
+}
+.home{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.content{
+    height: 200px;
+    position: relative;
+    top: 15%;
+    text-align: center;
+}
+.in{
+    height: 138px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    background-color: #ffffff;
+    top:30%;
+}
+input{
+    width: 318px;
+    height: 66px;
+    background-color: #f7f7f7;
+    border: 1px solid black;
+    border-radius: 4px;
+
+}
+
+button{
+    background-color: #003A70;
+    height: 66px;
+    width: 275px;
+    color: #ffffff;
+    border: 1px solid black;
+    padding: 17px 15px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #35B6B4;
+}
+
+
+
